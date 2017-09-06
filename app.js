@@ -1,0 +1,1 @@
+var g = G$(firstname, lastname, language); //returns object like jquery
