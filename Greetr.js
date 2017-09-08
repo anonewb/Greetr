@@ -56,11 +56,11 @@
 
 		//// retrive messages from object by referring to properties using [] syntax
 		greeting: function() {
-			return greetings[this.language] + ' ' + this.firstName + '!';
+			return greetings[this.language] + ' ' + this.firstName + ' ' + this.lastName + '!';
 		},
 
 		formalGreeting: function() {
-			return formalGreetings[this.language] + ' ' + this.firstName + '!';
+			return formalGreetings[this.language] + ' ' + this.firstName + ' ' + this.lastName + '!';
 		},
 
 		//// chainable methods return their own containing object
